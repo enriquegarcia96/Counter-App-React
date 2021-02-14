@@ -5,7 +5,6 @@ const CounterApp = ( {value = 10} ) =>{
 
     const [ counter, setCounter ] = useState(value); // []
     
-    
     // handleAdd
     const handleAdd  = () =>{
         setCounter (counter + 1);
@@ -14,7 +13,6 @@ const CounterApp = ( {value = 10} ) =>{
 
     const handleSubytract = () =>  setCounter(counter - 1);
     const handelReset = () => setCounter( value );
-
 
     return (
         <>
